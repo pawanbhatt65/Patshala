@@ -1,0 +1,109 @@
+@media(max-width: 767px){
+    /* heigher education */
+    .ed-para {
+    padding: 0px 0rem;
+    }
+    /* about */
+    .about-header h2 {
+    font-size: 26px;
+    }
+    .about-header p{
+    text-align: justify;
+    }
+    .f-size{
+    font-size: 16px;
+    }
+    /* course */
+    .course::before{
+    position: static;
+    }
+    .course::after{
+    width: 100%;
+    }
+    .course-analyst p{
+    font-size: 14px;
+    }
+    .course-analyst time{
+    font-size: 14px;
+    }
+    .course-list li a{
+    font-size: 14px;
+    }
+    .course-list li:not(:last-child) {
+    margin-right: 0rem;
+    }
+    .btn-course{
+    display: block;
+    margin: auto;
+    }
+    .stats p::before{
+    left: 45%;
+    }
+    /* statistics start */
+    .stats-header::before {
+    left: 36%;
+    width: 30%;
+    }
+    /* statistics end */
+    /* events */
+    .events-time {
+    padding: 0px 1rem;
+    }
+    .event-bottom{
+    display: flex;
+    align-items: end;
+    }
+    .event-bottom p{
+    margin: 0px 10px;
+    }
+    /* quote */
+    .event-quote {
+    padding: 0px;
+    }
+    .event-quote-content{
+    padding: 0px;
+    }
+    .event-quote-content::before{
+    left: 5px;
+    }
+    .quote-ul li:last-child{
+    font-size: 13px;
+    }
+    }
+    @media(min-width: 768px) and (max-width: 991px){
+    /* navbar start */
+    .nav-head {
+    padding-right: 0px;
+    align-items: center;
+    }
+    /* navbar end */
+    /* about start */
+    .about-header p{
+    text-align: justify;
+    }
+    /* about end */
+    /* events start */
+    .events-time {
+    padding: 0px;
+    }
+    .event-bottom {
+    font-size: 16px;
+    }
+    /* events end */
+    /* quote start */
+    .event-quote-content {
+    padding: 0px;
+    }
+    .event-quote-content::before {
+    left: 9px;
+    top: -12px;
+    }
+    /* quote end */
+    }
+    @media (min-width: 992px) and (max-width: 1199px){
+    /* navbar start */
+    .nav-head {
+    padding-right: 70px;
+    }
+    /* navbar end */
+    }
